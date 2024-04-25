@@ -19,10 +19,6 @@ export const algoList = [
     fn: insertionSort,
   },
   {
-    name: 'heap',
-    fn: heapSort,
-  },
-  {
     name: 'merge',
     fn: mergeSort,
   },
