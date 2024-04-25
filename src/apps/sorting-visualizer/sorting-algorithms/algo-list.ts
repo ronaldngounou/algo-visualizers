@@ -1,11 +1,9 @@
 import { bubbleSort } from './bubble';
-import { cocktailSort } from './cocktail';
 import { heapSort } from './heap';
 import { insertionSort } from './insertion';
 import { mergeSort } from './merge';
 import { quickSort } from './quick';
 import { selectionSort } from './selection';
-import { shellSort } from './shell';
 
 export const algoList = [
   {
@@ -31,13 +29,5 @@ export const algoList = [
   {
     name: 'quick',
     fn: quickSort,
-  },
-  {
-    name: 'shell',
-    fn: shellSort,
-  },
-  {
-    name: 'cocktail',
-    fn: cocktailSort,
-  },
+  }
 ];
